@@ -1,0 +1,9 @@
+El constructor en la clase emisor está protegido, se realiza el cambio a público.
+
+De la misma manera el constructor pero en la clase main está protegido, se realiza el mismo cambio a público.
+
+Se creó una función setXML en la cual se le colocó el código de la funcion createXML y se mandó llamar dentro del constructor, en esta se dió uso a la función setAttribute.
+
+Fué necesario hacer un cambio a la función setAttribute, ya que se encontraba en modo privado, se actualizadó a público.
+
+Se modificó el método getNode, se le colocó en modo público para tener la posibilidad de utilizar la palabra reservada $this y retornar la estructura.
